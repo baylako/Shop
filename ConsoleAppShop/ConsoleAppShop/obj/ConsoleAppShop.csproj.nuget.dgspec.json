@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baylakxm\\source\\repos\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj": {}
+    "C:\\Users\\baylakxm\\Documents\\Shop\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baylakxm\\source\\repos\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj": {
+    "C:\\Users\\baylakxm\\Documents\\Shop\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baylakxm\\source\\repos\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj",
+        "projectUniqueName": "C:\\Users\\baylakxm\\Documents\\Shop\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj",
         "projectName": "ConsoleAppShop",
-        "projectPath": "C:\\Users\\baylakxm\\source\\repos\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj",
+        "projectPath": "C:\\Users\\baylakxm\\Documents\\Shop\\ConsoleAppShop\\ConsoleAppShop\\ConsoleAppShop.csproj",
         "packagesPath": "C:\\Users\\baylakxm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baylakxm\\source\\repos\\ConsoleAppShop\\ConsoleAppShop\\obj\\",
+        "outputPath": "C:\\Users\\baylakxm\\Documents\\Shop\\ConsoleAppShop\\ConsoleAppShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baylakxm\\AppData\\Roaming\\NuGet\\NuGet.Config",

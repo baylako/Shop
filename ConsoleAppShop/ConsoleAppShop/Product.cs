@@ -10,29 +10,23 @@ namespace ConsoleAppShop
         public string Model { get; set; }
         public int Price { get; set; }
 
-        public static void Show()
+        //string[] array = new string[4];
+        //string name = array[0];
+
+        public void Notebook()
         {
-           
-        }
-        public static void Exit()
-        {
-            Environment.Exit(0);
+            string name = "hp";
+            string model = "X-500";
+            int price = 25000;
+            Console.WriteLine($"Ноутбук {name}\t модель {model}\t Цена {price}");
         }
 
-        public string Notebook()
-        {
-            Name = "hp";
-            Model = "X-100";
-            Price = 25000;
-            return $"Ноутбук {Name}, модель {Model} Цена {Price}";
-        }
-
-        public static string Tablett()
+        public void Tablett()
         {
             string name = "samsung";
             string model = "Y-500";
             int price = 35000;
-            return $"Планшет {name}, модель {model} Цена {price}";
+            Console.WriteLine($"Планшет {name}\t модель {model}\t Цена {price}");
         }
     }
 }

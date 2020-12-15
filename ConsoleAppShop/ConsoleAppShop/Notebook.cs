@@ -8,10 +8,10 @@ namespace ConsoleAppShop
     {
         public static string Get()
         {
-            List<Product> notebook = new List<Product>()
-            {
-
-            };
+            //List<Product> notebook = new List<Product>()
+            //{
+            //    Name = "asus"
+            //};
             return null;
         }
     }

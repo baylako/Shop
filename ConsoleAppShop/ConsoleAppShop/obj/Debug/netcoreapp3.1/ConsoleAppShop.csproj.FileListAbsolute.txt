@@ -11,3 +11,16 @@ C:\Users\baylakxm\source\repos\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreap
 C:\Users\baylakxm\source\repos\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.dll
 C:\Users\baylakxm\source\repos\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.pdb
 C:\Users\baylakxm\source\repos\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.genruntimeconfig.cache
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\bin\Debug\netcoreapp3.1\ConsoleAppShop.exe
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\bin\Debug\netcoreapp3.1\ConsoleAppShop.deps.json
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\bin\Debug\netcoreapp3.1\ConsoleAppShop.runtimeconfig.json
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\bin\Debug\netcoreapp3.1\ConsoleAppShop.runtimeconfig.dev.json
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\bin\Debug\netcoreapp3.1\ConsoleAppShop.dll
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\bin\Debug\netcoreapp3.1\ConsoleAppShop.pdb
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.csprojAssemblyReference.cache
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.AssemblyInfoInputs.cache
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.AssemblyInfo.cs
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.csproj.CoreCompileInputs.cache
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.dll
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.pdb
+C:\Users\baylakxm\Documents\Shop\ConsoleAppShop\ConsoleAppShop\obj\Debug\netcoreapp3.1\ConsoleAppShop.genruntimeconfig.cache
