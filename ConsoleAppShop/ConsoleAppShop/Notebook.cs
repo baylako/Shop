@@ -6,13 +6,12 @@ namespace ConsoleAppShop
 {
     class Notebook : Product
     {
-        public static string Get()
+        public int Price { get; set; }
+        public Notebook(string name, int price) 
+           
         {
-            //List<Product> notebook = new List<Product>()
-            //{
-            //    Name = "asus"
-            //};
-            return null;
+            Name = name;
+            Price = price;
         }
     }
 }

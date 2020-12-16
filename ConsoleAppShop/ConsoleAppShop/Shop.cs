@@ -6,8 +6,10 @@ namespace ConsoleAppShop
 {
     class Shop
     {
-        public static string Name { get; } = "DNS";
-        public static string Address { get; } = "г. Кызыл, ул. Дружба 137";
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public List<Product> Products { get; set; }
+
         public void GetInfoShop()
         {
             Console.WriteLine($"Магазин \"{Name}\" находится по адресу {Address}");
