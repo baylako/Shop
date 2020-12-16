@@ -12,7 +12,7 @@ namespace ConsoleAppShop
             MyShop = new Shop();
             MyShop.Products = GetAllProducts();
             MyShop.Name = "DNS";
-            MyShop.Address = "г. Кызыл, ул. Дружбы 137";
+            MyShop.Addresses = GetAddress();
 
             Console.WriteLine("Доступные команды: 1.address 2.show 3.show first 4.show last 5.show visible 6.show invisible 7.exit ");
 
@@ -25,7 +25,7 @@ namespace ConsoleAppShop
                 switch (command)
                 {
                     case "address":
-                        Address();
+                        Address(MyShop.Addresses);
                         break;
                     case "show":
                         Show(MyShop.Products);
@@ -93,9 +93,54 @@ namespace ConsoleAppShop
 
             return products;
         }
-        static void Address()
+        static List<Address> GetAddress()
         {
-            Console.WriteLine(MyShop.Address);
+            List<Address> addresses = new List<Address>();
+
+            Address legal_address = new Address
+            {
+                Type = "Юридический адрес",
+                Sity = "Иркутск",
+                Street = "Маяковского",
+                Home = 2,
+                Index = 664005,
+                Phone_number = 88002003000,
+                Email = "irkutsk@dns.ru"
+            };
+
+            Address actual_address = new Address
+            {
+                Type = "Фактический адрес",
+                Sity = "Кызыл",
+                Street = "Дружбы",
+                Home = 137,
+                Index = 667000,
+                Phone_number = 88002001000,
+                Email = "kyzyl@dns.ru"
+            };
+
+            Address postal_address = new Address
+            {
+                Type = "Почтовый адрес",
+                Sity = "Иркутск",
+                Street = "Маяковского",
+                Home = 2,
+                Index = 664005
+            };
+
+            addresses.Add(legal_address);
+            addresses.Add(actual_address);
+            addresses.Add(postal_address);
+
+                return addresses;
+        }
+        static void Address(List<Address> addresses)
+        {
+            foreach (Address item in addresses)
+            {
+                Console.WriteLine($"{item.Type}: индекс {item.Index}, г. {item.Sity}, ул. {item.Street}, д. {item.Home}, {item.Phone_number}, {item.Email}");
+            }
+           
         }
         static void Show(List<Product> products)
         {
